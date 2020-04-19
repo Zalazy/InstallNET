@@ -49,33 +49,27 @@ dist-version：发行版本号
 ### 使用默认镜像全自动安装：
 
 ```
-bash InstallNET.sh -d 8 -v 64 -a
+bash InstallNET.sh -d buster -v amd64 -a
 ```
 
 ### 使用自定义镜像全自动安装：
 
 ```
-bash InstallNET.sh -c 6.10 -v 64 -a --mirror 'http://mirror.centos.org/centos'
+bash InstallNET.sh -d buster -v amd64 -a --mirror 'https://mirrors.tuna.tsinghua.edu.cn/debian/'
 ```
 
 以下示例中，将X.X.X.X替换为自己的网络参数
 
---ip-addr：IP Address/IP地址
+--ip-addr：IP Address    /IP地址
 
---ip-gate：Gateway   /网关
+--ip-gate：Gateway       /网关
 
---ip-mask：Netmask   /子网掩码
-
-### 使用自定义镜像全自动安装：
-
-```
-bash InstallNET.sh -u 9 -v 64 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'
-```
+--ip-mask：Netmask       /子网掩码
 
 ### 使用自定义镜像自定义网络参数全自动安装：
 
 ```
-bash InstallNET.sh -u 16.04 -v 64 -a --ip-addr x.x.x.x --ip-gate x.x.x.x --ip-mask x.x.x.x --mirror 'http://archive.ubuntu.com/ubuntu'
+bash InstallNET.sh -d buster -v amd64 -a --ip-addr 192.168.1.2 --ip-gate 192.168.1.1 --ip-mask 255.255.255.0 --mirror 'https://mirrors.tuna.tsinghua.edu.cn/debian/'
 ```
 
 ### 使用自定义网络参数全自动dd方式安装：
