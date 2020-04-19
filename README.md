@@ -10,13 +10,13 @@ wget --no-check-certificate -qO InstallNET.sh 'https://github.com/Zalazy/Install
 
 确保安装了所需软件
 
-### Debian/Ubuntu：
+### Debian / Ubuntu：
 
 ```
 apt-get -y install xz-utils openssl gawk file
 ```
 
-### RedHat/CentOS：
+### RedHat / CentOS：
 
 ```
 yum -y install xz openssl gawk file
