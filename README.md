@@ -21,7 +21,7 @@ apt-get -y install xz-utils openssl gawk file
 ### RedHat/CentOS：
 
 ```
-yum -y install xz-utils openssl gawk file
+yum -y install xz openssl gawk file
 ```
 
 ### Usage：
