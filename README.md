@@ -8,8 +8,6 @@ wget --no-check-certificate -qO InstallNET.sh 'https://github.com/Zalazy/Install
 
 默认密码：MoeClub.org
 
-## 使用说明
-
 确保安装了所需软件
 
 ### Debian/Ubuntu：
@@ -44,7 +42,7 @@ dist-version：发行版本号
 
 -a/-m：询问是否能进入VNC自行操作，-a 为不提示(一般用于全自动安装)，-m 为提示
 
-## 使用示例
+## 开始安装
 
 ### 使用默认镜像全自动安装：
 
