@@ -21,10 +21,10 @@ Usage:
                                 -dd/--image
                                 -a/-m
 
-# dist-name: 发行版本代号
-# dist-version: 发行版本号
-# -apt/-yum/--mirror : 使用定义镜像
-# -a/-m : 询问是否能进入VNC自行操作. -a 为不提示(一般用于全自动安装), -m 为提示.
+#dist-name: 发行版本代号
+#dist-version: 发行版本号
+#-apt/-yum/--mirror : 使用定义镜像
+#-a/-m : 询问是否能进入VNC自行操作. -a 为不提示(一般用于全自动安装), -m 为提示.
 使用示例:
 #使用默认镜像全自动安装
 bash InstallNET.sh -d 8 -v 64 -a
@@ -32,10 +32,10 @@ bash InstallNET.sh -d 8 -v 64 -a
 #使用自定义镜像全自动安装
 bash InstallNET.sh -c 6.10 -v 64 -a --mirror 'http://mirror.centos.org/centos'
 
-# 以下示例中,将X.X.X.X替换为自己的网络参数.
-# --ip-addr :IP Address/IP地址
-# --ip-gate :Gateway   /网关
-# --ip-mask :Netmask   /子网掩码
+#以下示例中,将X.X.X.X替换为自己的网络参数.
+#--ip-addr :IP Address/IP地址
+#--ip-gate :Gateway   /网关
+#--ip-mask :Netmask   /子网掩码
 
 #使用自定义镜像全自动安装
 #bash InstallNET.sh -u 9 -v 64 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'
